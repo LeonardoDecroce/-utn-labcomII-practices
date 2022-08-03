@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del estudiante</title>
+</head>
+<style>
+    table,
+    td,
+    th {
+        border: 1px solid rgb(221, 13, 13);
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table {
+        width: 100%;
+    }
+</style>
+
+<body>
+    <fieldset>
+        <legend><b><i>Datos del Estudiante:</i></b></legend>
+        <input value="Estudiante" readonly />
+
+        <p><label for="nombre"><u><b><i>Nombre:</i></b></u></label></p>
+        <input type="text" id="nombre" name="nombre" value="" />
+
+        <p><label for="email"><u><b><i>Email:</i></b></u></label></p>
+        <input type="text" id="email" name="email" />
+
+        <p><label for="edad"><u><b><i>Edad:</i></b></u></label></p>
+        <input type="text" id="edad" name="edad" />
+
+        <p><label for="seleccionable"><u><b><i>Seleccione su Nacionalidad:</i></b></u></label></p>
+        <select name="seleccionable" id="seleccionable">
+            <option value="Opcion">Opcion</option>
+            <option value="Armenia">Armenia</option>
+            <option value="Afganistán">Afganistán</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Bolivia">Bolivia</option>
+        </select>
+
+        <p><label for="seleccionable"><u><b><i>Seleccione su condición laboral:</i></b></u></label></p>
+        <select name="seleccionable" id="seleccionable">
+            <option value="Opcion">Opcion</option>
+            <option value="Desempleado">Desempleado</option>
+            <option value="En Búsqueda Laboral">En Búsqueda Laboral</option>
+            <option value="Trabajo Part-Time">Trabajo Part-Time</option>
+            <option value="Trabajo Full-Time">Trabajo Full-Time</option>
+        </select>
+
+        <p><label for="Gustos Musicales"><u><b><i>Gustos Musicales:</i></b></u></label></p>
+        <input type="text" id="Gustos Musicales" name="Gustos Musicales" />
+
+        <p><label for="seleccionable"><u><b><i>Seleccione su Comida Preferida:</i></b></u></label></p>
+        <select name="seleccionable" id="seleccionable">
+            <option value="Opcion">Opcion</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Hamburguesa">Hamburguesas</option>
+            <option value="Pasta">Pasta</option>
+            <option value="Asado">Asado</option>
+        </select>
+
+        <p><label for="checkbox"><u><b><i>Check:</i></b></u></label></p>
+        <input type="checkbox" name="CheckBox" id="CheckBox" />
+
+        <p><input type="button" value="Enviar"></p>
+
+    </fieldset>
+
+</body>
+
+</html>
